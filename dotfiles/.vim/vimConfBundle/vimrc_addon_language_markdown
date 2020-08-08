@@ -1,0 +1,28 @@
+
+Plugin 'reedes/vim-pencil'
+
+Plugin 'tpope/vim-markdown'
+
+" MD Config
+let g:markdown_fenced_languages = ['html', 'python', 'bash=sh']
+let g:markdown_syntax_conceal = 2
+let g:markdown_minlines = 100
+" ref. web.:https://vimawesome.com/plugin/vim-markdown-enchanted
+
+
+Plugin 'suan/vim-instant-markdown', {'rtp': 'after'}
+" Uncomment to override defaults:
+" Reference: https://vimawesome.com/plugin/instant-markdown-vim
+" let g:instant_markdown_slow = 1
+" let g:instant_markdown_autostart = 0
+" let g:instant_markdown_open_to_the_world = 1
+" let g:instant_markdown_allow_unsafe_content = 1
+" let g:instant_markdown_allow_external_content = 0
+" let g:instant_markdown_mathjax = 1
+" let g:instant_markdown_logfile = '/tmp/instant_markdown.log'
+" let g:instant_markdown_autoscroll = 0
+" let g:instant_markdown_port = 8888
+" let g:instant_markdown_python = 1
+
+Plugin 'vim-pandoc/vim-pandoc'
+Plugin 'vim-pandoc/vim-pandoc-syntax' 

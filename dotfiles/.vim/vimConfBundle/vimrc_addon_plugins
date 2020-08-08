@@ -1,0 +1,22 @@
+
+" Snippets
+Bundle 'SirVer/ultisnips'
+let g:UltiSnipsExpandTrigger = "<tab>"
+let g:UltiSnipsJumpForwardTrigger = "<tab>"
+let g:UltiSnipsJumpBackwardTrigger="<s-tab>"
+" Define snip location
+let g:UltiSnipsSnippetDirectories=[ "bundle/ultisnips/UltiSnips"]
+
+Bundle 'Valloric/YouCompleteMe'
+Plugin 'godlygeek/tabular'
+Plugin 'tpope/vim-fugitive'
+Plugin 'altercation/vim-colors-solarized'
+Plugin 'vim-airline/vim-airline'
+
+Plugin 'lervag/vimtex'
+Plugin 'vhdirk/vim-cmake'
+Plugin 'vim-ctrlspace/vim-ctrlspace'
+Plugin 'scrooloose/syntastic'
+Plugin 'chiel92/vim-autoformat'
+
+
